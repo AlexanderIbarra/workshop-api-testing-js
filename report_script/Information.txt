@@ -1,0 +1,7 @@
+Tengo
+    -Consola
+    -el último Build number
+    -Descripción del Build
+    -Duración
+    -TiempoEstimado
+    -resultado (exitoso, fallido)
