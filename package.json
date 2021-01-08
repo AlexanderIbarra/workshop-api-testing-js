@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./test/**/*.js",
     "test": "npm run lint && mocha -t 15000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=ApiTesting",
-    "report": "node report/GetInfo.js"
+    "report": "node report_script/GetInfo.js"
   },
   "repository": {
     "type": "git",
