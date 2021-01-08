@@ -13,4 +13,9 @@ pipeline {
       }
     }
   }
+  post {
+    always {
+      sh 'npm run report'
+    }
+  }
 }
